@@ -122,3 +122,14 @@ span {
 .padding-2em-top {
      padding-top: 2em;
 }
+
+section {
+    opacity: 0;
+    transform: translateY(-1.5em);
+    transition: 0.5s all ease-in-out;
+}
+
+.appear {
+    opacity: 1;
+    transform: translateY(0em);
+}
