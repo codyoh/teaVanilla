@@ -3,11 +3,13 @@ body {
     font-family: 'Baskerville', serif;
 }
 
-#container {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 nav {
@@ -132,4 +134,15 @@ section {
 .appear {
     opacity: 1;
     transform: translateY(0em);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
