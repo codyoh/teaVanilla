@@ -1,5 +1,8 @@
-const section = document.querySelector('#toAppear');
+const sections = document.querySelectorAll('.pre-appear');
+
 
 window.addEventListener('load', (e) => {
-    section.classList.add('appear');
+    for(block of sections){
+        block.classList.add('appear');
+    }
 })
