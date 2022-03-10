@@ -3,11 +3,13 @@ body {
     font-family: 'Baskerville', serif;
 }
 
-#container {
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 nav {
@@ -123,7 +125,7 @@ span {
      padding-top: 2em;
 }
 
-section {
+.pre-appear {
     opacity: 0;
     transform: translateY(-1.5em);
     transition: 0.5s all ease-in-out;
@@ -132,4 +134,27 @@ section {
 .appear {
     opacity: 1;
     transform: translateY(0em);
+}
+
+.landing-img {
+    width: 5em;
+    height: 5em;
+    padding: 1em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
 }
