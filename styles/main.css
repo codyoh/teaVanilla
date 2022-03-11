@@ -38,6 +38,10 @@ a:hover {
     cursor: pointer;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 .logo {
     font-size: 1.8em;
 }
@@ -131,14 +135,31 @@ span {
     transition: 0.5s all ease-in-out;
 }
 
+.pre-appear-left {
+    opacity: 0;
+    transform: translateX(-1.5em);
+    transition: 0.5s all ease-in-out;
+}
+
+.pre-appear-right {
+    opacity: 0;
+    transform: translateX(1.5em);
+    transition: 0.5s all ease-in-out;
+}
+
+.pre-appear-late {
+    opacity: 0;
+    transition: 0.5s 0.25s all ease-in-out;
+}
+
 .appear {
     opacity: 1;
     transform: translateY(0em);
 }
 
 .landing-img {
-    width: 5em;
-    height: 5em;
+    width: 7em;
+    height: 7em;
     padding: 1em;
 }
 
