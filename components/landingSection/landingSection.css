@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: 500vh;
 }
 
 .landing-section {
@@ -61,8 +62,6 @@ body {
     left: 0;
     margin: 0;
     padding: 0;
-    height: 50%;
-    width: 30%;
 }
 
 .vine-container-up-right {
@@ -79,4 +78,8 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+}
+
+svg {
+    display: inline-block;
 }
