@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.landing-section {
+    position: relative;
+    width: 90vw;
+    height: 80vh;
+    font-family: 'Baskerville', serif;
+    background-image: url("../../assets/images/SA_56.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 5vw;
+}
+
+.landing-section-text {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.4);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.landing-section-header {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.landing-section-subtext {
+    display: block;
+    font-size: 2rem;
+    padding: 0.25rem;
+}
+
+.call-to-action {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    transition: padding 0.5s;
+}
+
+.call-to-action:hover {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.vine-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 30%;
+}
+
+.vine-container-up-right {
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+.vine {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
