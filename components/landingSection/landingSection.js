@@ -5,11 +5,13 @@ let path = document.querySelector('path')
 let pathLength = path.getTotalLength();
 
 function drawVine(){
-    let middleOfSection = landingSection.getBoundingClientRect().top - landingSection.getBoundingClientRect().height /2;
+    let middleOfSection = landingSection.getBoundingClientRect().top - (landingSection.getBoundingClientRect().height / 2);
+    let bottomOfSection = landingSection.getBoundingClientRect().bottom;
+    
     let screenHeight = window.innerHeight;
 
-    let percentageUpScreen = middleOfSection / screenHeight;
-
+    let percentageUpScreen = middleOfSection / (screenHeight / 2);
+    console.log(percentageUpScreen)
     let drawLength = pathLength * percentageUpScreen;
 
     path.style.strokeDashoffset = pathLength - drawLength;

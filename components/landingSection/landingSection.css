@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 5vh 5vw;
+    background-color: slategray;
 }
 
 .landing-section-text {
