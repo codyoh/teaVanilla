@@ -84,3 +84,12 @@ body {
 svg {
     display: inline-block;
 }
+
+.pre-appear {
+    opacity: 0;
+    transition: 0.7s all ease-in-out;
+}
+
+.appear {
+    opacity: 1;
+}
